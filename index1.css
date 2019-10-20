@@ -1,0 +1,78 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #efefee;
+	font-size: 17px;
+	color: #777;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+#login-box
+{
+	position: relative;
+	margin: 5% auto;
+	height: 400px;
+	width: 600px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0, 0.6);
+}
+.left-box
+{
+	position: absolute;
+	top: 0;
+	left:0;
+	box-sizing: border-box;
+	padding: 5px;
+	width: 301px;
+	height: 401px;
+
+}
+h1
+{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 27px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 21px;
+	margin-left: 20px;
+	padding: 4px;
+	width: 222px;
+	height: 33px;
+	/*border-bottom: 1px solid #aaa;*/
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	transition: 0.2s ease;
+}
+input[type="submit"]
+{
+	margin-bottom: 29px;
+	width: 122px;
+	height: 33px;
+	background: #f44333;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 501;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+	margin-left: 22px;
+} 
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -40px;
+	left:478px;
+	 }
